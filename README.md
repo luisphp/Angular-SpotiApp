@@ -1,27 +1,19 @@
 # Spotiapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+App creada con Angular CLI 10.
+CSS Bootstrap 4.
+Consumo de API Rest suministrada por Spotify.
+Web de tipo SPA, home, buscador, detalles de artista.
+Implementa audio preview de canciones de albumes de artista.
 
-## Development server
+## Nota
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Por el momento se necesita generar un token e incluirlo en el service de este codigo para que la App funcione y hacer demostraciones.
 
-## Code scaffolding
+- Se recomienda ir a la documentacion de Spotify para ver los end-points para solicitar el token de autenticación los clied_id y client_secret estan guardados en el doc "Angular +10" de google drive concerniente a este proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<img src="images_app/2020-07-31_15h28_41.png">
+<img src="images_app/2020-07-31_15h29_54.png">
+<img src="images_app/2020-07-31_15h30_29.png">
+<img src="images_app/2020-07-31_15h30_49.png">
